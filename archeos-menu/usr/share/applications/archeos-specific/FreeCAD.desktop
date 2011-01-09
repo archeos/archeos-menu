@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=;
+Comment=Feature based Parametric Modeler
+Comment[de]=Feature-basierter parametrischer Modellierer
+Comment[de_DE]=Feature-basierter parametrischer Modellierer
+Encoding=UTF-8
+Exec=/usr/bin/freecad %F
+GenericName=CAD Application
+GenericName[de]=CAD-Anwendung
+GenericName[de_DE]=Feature-basierter parametrischer Modellierer
+Hidden=false
+Icon=/usr/share/freecad/freecad.xpm
+MimeType=application/x-extension-fcstd
+Name=FreeCAD
+Name[de]=FreeCAD
+Path=/usr/lib/freecad
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0

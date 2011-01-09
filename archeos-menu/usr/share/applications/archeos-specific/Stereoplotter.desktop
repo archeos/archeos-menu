@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=;
+Exec=sp
+GenericName=EFOTO - Stereoplotter
+Hidden=false
+Icon=/usr/share/icons/archeos/48x48/archeos_efoto48.png
+Name=Stereoplotter
+NoDisplay=false
+StartupNotify=true
+Terminal=0
+TryExec=sp
+Type=Application
+Version=0.1

@@ -1,0 +1,33 @@
+archeos-menu changelog
+0.1-archeos0.10 26-11-2010
+	* Added /usr/share/applications/archeos-specific/sqlitebrowser.desktop
+	* Changed gnome-applications.menu to include sqlitebrowser under ArcheosDB and remove from Other and Development
+0.1-archeos0.9 25-11-2010
+	* Changed /usr/share/applications/alacarte-made-3.desktop to use the correct icon
+	* Changed /usr/share/applications/alacarte-made-4.desktop to use the correct icon
+0.1-archeos0.8 24-11-2010
+	* Changed /etc/xdg/menus/gnome-applications.menu to make some minor modifications
+0.1-archeos0.7 24-11-2010
+	* Removed /usr/share/applications/alacarte-made-1.desktop (sqlite)
+	* Removed /usr/share/applications/alacarte-made-2.desktop (spatialite)
+	* Changed /etc/xdg/menus/gnome-applications.menu to removed unused db entries (spatialite, sqlite) (Bug #70,#71)
+	* Removed /usr/share/applications/archeos-specific/whitedune.desktop (Bug #76)
+	* Removed /usr/share/applications/archeos-specific/qcad.desktop (Bug #76)
+	* Changed /etc/xdg/menus/gnome-applications.menu to add paraview to 3D (Bug #83)
+	* Changed /etc/xdg/menus/gnome-applications.menu to add labplot to science (Bug #84)
+	* Changed /etc/xdg/menus/gnome-applications.menu to add Kalzium
+	* Changed /etc/xdg/menus/gnome-applications.menu to add Totalopenstation under Accessories (Bug #85)
+	* Changed /etc/xdg/menus/gnome-applications.menu to add Marble under Science (Bug #82)
+0.1-archeos0.6 16-11-2010
+	* Changed .desktop entries for GRASS and GPSbabel to point to
+	correct icon
+	* Copied archeos-apps-gpsdrive.png icon to
+	/usr/share/icons/gpsicon.png to work with desktop entry
+	* Added AppDir tag to gnome-applications.menu (GIS and Database section)
+0.1-archeos0.5 16-11-2010
+	* Modified gnome-applications.menu to include various AppDir tag
+0.1-archeos0.4 16-11-2010
+	* Added /usr/share/doc directory with changelog
+	* Added files gnome-applications.menu and original.menu into /etc/xdg/menus/
+	* Modified control file to replace gnome-menus
+

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=;
+Comment=Generate 3d humanoid models
+Exec=makehuman
+Hidden=false
+Icon=/usr/share/pixmaps/makehuman.png
+Name=MakeHuman alpha 5
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0

@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Name[en_US]=GRASS
+Exec=/usr/bin/grass
+Comment[en_US]=Geographic Resources Analysis Support System
+Name=GRASS
+Comment=Geographic Resources Analysis Support System
+Icon=/usr/share/icons/archeos-application/archeos-apps-grass.png
+

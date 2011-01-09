@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Directory
+Name[en_US]=CAD
+Comment[en_US]=CAD applications
+Name=CAD
+Comment=CAD applications
+Icon=/usr/share/icons/archeos-menu/archeos-menu-cad.png
