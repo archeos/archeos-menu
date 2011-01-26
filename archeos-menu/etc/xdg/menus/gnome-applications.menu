@@ -24,7 +24,7 @@
       <Filename>jSVR-1.desktop</Filename>
       <Filename>MakeHuman alpha 5.desktop</Filename>
       <Filename>Whitedune.desktop</Filename>
-      <Filename>ParaView Viewer.desktop</Filename>
+      <Filename>k3d.desktop</Filename>
     </Include>
   </Menu>
   <Menu>
@@ -65,7 +65,7 @@
     <Directory>ArcheosGPS.directory</Directory>
     <Include>
       <Filename>alacarte-made-4.desktop</Filename>
-      <Filename>GpsDrive.desktop</Filename>
+      <Filename>gpsdrive.desktop</Filename>
     </Include>
   </Menu>
   <Menu>
@@ -86,6 +86,7 @@
       <Filename>Interior.desktop</Filename>
       <Filename>Normalization.desktop</Filename>
       <Filename>Phototriangulation.desktop</Filename>
+      <Filename>ppt.desktop</Filename>
       <Filename>Rectification.desktop</Filename>
       <Filename>stereo-1.desktop</Filename>
       <Filename>Stereoplotter.desktop</Filename>
@@ -117,6 +118,8 @@
       <Filename>stereo.desktop</Filename>
       <Filename>stereoplotter.desktop</Filename>
       <Filename>whitedune.desktop</Filename>
+      <Filename>k3d.desktop</Filename>
+      <Filename>openoffice.org-draw.desktop</Filename>
     </Exclude>
   </Menu>
   <Menu>
@@ -135,6 +138,8 @@
       <Filename>archeos-specific-Exterior.desktop</Filename>
       <Filename>archeos-specific-FreeCAD.desktop</Filename>
       <Filename>archeos-specific-GpsDrive.desktop</Filename>
+      <Filename>archeos-specific-stereo-1.desktop</Filename>
+      <Filename>archeos-specific-sqlitebrowser.desktop</Filename>
       <Filename>sqlitebrowser.desktop</Filename>
       <Filename>gvSIG.desktop</Filename>
       <Filename>archeos-specific-gvSIG-1.desktop</Filename>
@@ -163,7 +168,8 @@
       <Filename>R Commander.desktop</Filename>
       <Filename>archeos-specific-Rectification.desktop</Filename>
       <Filename>archeos-specific-SAGA GIS.desktop</Filename>
-      <Filename>archeos-specific-stereo-1.desktop</Filename>
+      <Filename>archeos-specific-stereo.desktop</Filename>
+      <Filename>archeos-specific-ppt.desktop</Filename>
       <Filename>archeos-specific-Stereoplotter.desktop</Filename>
       <Filename>archeos-specific-Tellico.desktop</Filename>
       <Filename>totalopenstation.desktop</Filename>
@@ -194,7 +200,7 @@
       <Filename>SAGA GIS.desktop</Filename>
       <Filename>alacarte-made-2.desktop</Filename>
       <Filename>alacarte-made-1.desktop</Filename>
-      <Filename>stereo-1.desktop</Filename>
+      <Filename>stereo.desktop</Filename>
       <Filename>Stereoplotter.desktop</Filename>
       <Filename>Tellico.desktop</Filename>
       <Filename>Udig.desktop</Filename>
@@ -225,6 +231,7 @@
       <Filename>Kalzium.desktop</Filename>
       <Filename>LabPlot.desktop</Filename>
       <Filename>Marble.desktop</Filename>
+      <Filename>ParaView Viewer.desktop</Filename>
     </Include>
   </Menu>
   <Menu>
@@ -234,6 +241,12 @@
       <Filename>gdmflexiserver.desktop</Filename>
       <Filename>gdmflexiserver-xnest.desktop</Filename>
       <Filename>baobab.desktop</Filename>
+    </Exclude>
+  </Menu>
+  <Menu>
+    <Name>Internet</Name>
+    <Exclude>
+      <Filename>gpsdrive.desktop</Filename>
     </Exclude>
   </Menu>
 </Menu>
