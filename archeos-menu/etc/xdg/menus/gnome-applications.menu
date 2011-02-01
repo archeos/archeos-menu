@@ -73,7 +73,7 @@
     <Directory>ArcheosLaser.directory</Directory>
     <AppDir>/usr/share/applications/archeos-specific</AppDir>
     <Include>
-      <Filename>MeshLab.desktop</Filename>
+      <Filename>meshlab.desktop</Filename>
     </Include>
   </Menu>
   <Menu>
