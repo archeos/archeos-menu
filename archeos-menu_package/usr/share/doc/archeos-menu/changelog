@@ -1,4 +1,6 @@
 archeos-menu changelog
+0.1-archeos0.11 01-02-2011
+	* Changed gnome-applications.menu to add meshlab's correct icon
 0.1-archeos0.10 26-11-2010
 	* Added /usr/share/applications/archeos-specific/sqlitebrowser.desktop
 	* Changed gnome-applications.menu to include sqlitebrowser under ArcheosDB and remove from Other and Development
