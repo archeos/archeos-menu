@@ -84,6 +84,7 @@
       <Filename>DEM.desktop</Filename>
       <Filename>Exterior.desktop</Filename>
       <Filename>Interior.desktop</Filename>
+      <Filename>insight3d.desktop</Filename>
       <Filename>Normalization.desktop</Filename>
       <Filename>Phototriangulation.desktop</Filename>
       <Filename>ppt.desktop</Filename>
@@ -150,6 +151,7 @@
       <Filename>Kalzium.desktop</Filename>
       <Filename>archeos-specific-KompoZer.desktop</Filename>
       <Filename>KompoZer.desktop</Filename>
+      <Filename>insight3d.desktop</Filename>
       <Filename>LabPlot.desktop</Filename>
       <Filename>archeos-specific-LabPlot.desktop</Filename>
       <Filename>archeos-specific-MakeHuman alpha 5.desktop</Filename>

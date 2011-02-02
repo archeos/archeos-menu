@@ -1,5 +1,7 @@
 archeos-menu changelog
-0.1-archeos0.11 01-02-2011
+0.1-archeos0.13 01-02-2011
+	* Changed /etc/xdg/menus/gnome-applications.menu to add insight3d under Photogrammetry
+0.1-archeos0.12 01-02-2011
 	* Changed gnome-applications.menu to add meshlab's correct icon
 0.1-archeos0.10 26-11-2010
 	* Added /usr/share/applications/archeos-specific/sqlitebrowser.desktop
