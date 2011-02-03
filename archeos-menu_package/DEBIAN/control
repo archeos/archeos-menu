@@ -1,5 +1,5 @@
 Package: archeos-menu
-Version: 0.1-archeos0.13
+Version: 0.1-archeos0.14
 Architecture: all
 Maintainer: Fabrizio Furnari <fab.furnari@gmail.com>
 Depends: gnome-core
