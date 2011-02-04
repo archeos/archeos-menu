@@ -122,12 +122,17 @@ Edit the file:
      	archeos-menu_package/DEBIAN/control
 
 and update the field "Version:" to 0.2-archeos1.41
-Update also the 
+Unzip and update also the changelog with
 
-        archeos-menu_package/usr/share/doc/archeos-menu/changelog
+        gunzip archeos-menu_package/usr/share/doc/archeos-menu/changelog.gz
+	edit archeos-menu_package/usr/share/doc/archeos-menu/changelog
 
 file to reflect your changes. The description of the changes made can be used
 later for the commit.
+Compress it it with:
+
+        gzip --best archeos-menu_package/usr/share/doc/archeos-menu/changelog
+
 Look with 
 
         git status
