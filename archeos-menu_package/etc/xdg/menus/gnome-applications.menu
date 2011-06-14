@@ -45,6 +45,7 @@
       <Filename>alacarte-made.desktop</Filename>
       <Filename>Tellico.desktop</Filename>
       <Filename>sqlitebrowser.desktop</Filename>
+      <Filename>pgadmin3.desktop</Filename>
     </Include>
   </Menu>
   <Menu>
@@ -216,6 +217,7 @@
       <Filename>assistant-qt4.desktop</Filename>
       <Filename>linguist-qt4.desktop</Filename>
       <Filename>sqlitebrowser.desktop</Filename>
+      <Filename>pgadmin3.desktop</Filename>
     </Exclude>
   </Menu>
   <Menu>
