@@ -208,6 +208,7 @@
       <Filename>Tellico.desktop</Filename>
       <Filename>Udig.desktop</Filename>
       <Filename>Whitedune.desktop</Filename>
+      <Filename>assistant-qt3.desktop</Filename>
     </Exclude>
   </Menu>
   <Menu>
@@ -215,6 +216,7 @@
     <Exclude>
       <Filename>kompozer.desktop</Filename>
       <Filename>assistant-qt4.desktop</Filename>
+      <Filename>assistant-qt3.desktop</Filename>
       <Filename>linguist-qt4.desktop</Filename>
       <Filename>sqlitebrowser.desktop</Filename>
       <Filename>pgadmin3.desktop</Filename>
