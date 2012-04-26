@@ -33,7 +33,7 @@
     <AppDir>/usr/share/applications/archeos-specific</AppDir>
     <Include>
       <Filename>FreeCAD.desktop</Filename>
-      <Filename>QCad.desktop</Filename>
+      <Filename>librecad.desktop</Filename>
     </Include>
   </Menu>
   <Menu>
@@ -46,6 +46,8 @@
       <Filename>Tellico.desktop</Filename>
       <Filename>sqlitebrowser.desktop</Filename>
       <Filename>pgadmin3.desktop</Filename>
+      <Filename>spatialite-gis.desktop</Filename>
+      <Filename>spatialite-gui.desktop</Filename>
     </Include>
   </Menu>
   <Menu>
@@ -122,6 +124,7 @@
       <Filename>whitedune.desktop</Filename>
       <Filename>k3d.desktop</Filename>
       <Filename>openoffice.org-draw.desktop</Filename>
+      <Filename>librecad.desktop</Filename>
     </Exclude>
   </Menu>
   <Menu>
@@ -153,8 +156,6 @@
       <Filename>archeos-specific-KompoZer.desktop</Filename>
       <Filename>KompoZer.desktop</Filename>
       <Filename>insight3d.desktop</Filename>
-      <Filename>LabPlot.desktop</Filename>
-      <Filename>archeos-specific-LabPlot.desktop</Filename>
       <Filename>archeos-specific-MakeHuman alpha 5.desktop</Filename>
       <Filename>archeos-specific-Marble.desktop</Filename>
       <Filename>Marble.desktop</Filename>
@@ -209,6 +210,8 @@
       <Filename>Udig.desktop</Filename>
       <Filename>Whitedune.desktop</Filename>
       <Filename>assistant-qt3.desktop</Filename>
+      <Filename>spatialite-gis.desktop</Filename>
+      <Filename>spatialite-gui.desktop</Filename>
     </Exclude>
   </Menu>
   <Menu>
@@ -227,7 +230,6 @@
     <AppDir>/usr/share/applications/archeos-specific</AppDir>
     <Exclude>
       <Filename>kde4-kalzium.desktop</Filename>
-      <Filename>kde-LabPlot.desktop</Filename>
       <Filename>paraview.desktop</Filename>
       <Filename>qgis.desktop</Filename>
       <Filename>r-cran-rcmdr.desktop</Filename>
@@ -235,7 +237,6 @@
     </Exclude>
     <Include>
       <Filename>Kalzium.desktop</Filename>
-      <Filename>LabPlot.desktop</Filename>
       <Filename>Marble.desktop</Filename>
       <Filename>ParaView Viewer.desktop</Filename>
     </Include>
