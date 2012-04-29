@@ -53,11 +53,11 @@ Please read carefully before any modification.
 	  Copy the archeos-menu_package folder into another, out of this repos
 	  folder, eg. /tmp/
 	* Go to that folder and build the package with 
-	  sudo dpkg -b archeos-menu_package archeos-menu_X.X-archeosX.XX_all.deb
+	  sudo dpkg -b archeos-menu_package archeos-menu_X.X_all.deb
 	* Test the package with lintian
 	* Copy the package to a (virtualized) fresh ArcheOS and try to install it
 	  with:
-	  sudo dpkg -i archeos-menu_X.XarcheosX.XX_all.deb
+	  sudo dpkg -i archeos-menu_X.X_all.deb
 	* Test your modifications
 
 [Finalizing]
@@ -73,9 +73,9 @@ Please read carefully before any modification.
 	  git checkout master
 	  git merge <your branch name>
 	* Tag your commit using the same version as the DEBIAN/control file:
-	  git tag X.X-archeosX.XX
+	  git tag X.X
 	  If you have a gpg public key you can sign the tag using:
-	  git tag -s X.Xa-rcheosX.XX
+	  git tag -s X.X
 	* Push your work to the upstream repository with
 	  git push
 	* Push your tag too
@@ -90,7 +90,7 @@ these...
 
 Let's suppose that we've an issue on the archeos-menu package for the iceweasel
 icon that does not display on the menu. The issue has been opened as #301 and the
-current version of archeos-menu is 0.2-archeos1.41
+current version of archeos-menu is 0.2
 
 I assume also that you're subscribed already to github and you've completed all
 steps described into the [Prerequisites] section.
@@ -121,7 +121,7 @@ Edit the file:
 
      	archeos-menu_package/DEBIAN/control
 
-and update the field "Version:" to 0.2-archeos1.41
+and update the field "Version:" to 0.3
 Unzip and update also the changelog with
 
         gunzip archeos-menu_package/usr/share/doc/archeos-menu/changelog.gz
@@ -165,7 +165,7 @@ After that copy it (with scp or other ways) to your ArcheOS fresh installation
 (be sure that the archeos-menu package on that machine is lesser than our just
 built one...) and install it with:
 
-      	sudo dpkg -i archeos-menu_0.2-archeos1.41_all.deb
+      	sudo dpkg -i archeos-menu_0.3_all.deb
 
 Now, the art of testing and discoverying bugs is very old and complex and I've 
 no time to explain it here (and I'm not the right person to do that) so I'll
@@ -196,13 +196,13 @@ your commits with git log --stat). A tag instead is a more polite way to refer
 to a particulare commit, and so to a particular moment or state, of the code,
 so it's a way to version the code! Let's add the tag:
 
-   	git tag "0.2-archeos1.41"
+   	git tag "0.3"
 
 If you have a pulic GPG key and you want to use that to sign your tag so can
 be verified by anyone that you are the actual father of the modifications,
 you can do that with:
 
-    	git tag -s "0.2-archeos1.41"
+    	git tag -s "0.3"
 
 If you don't know what we're talking about you can ignore or read this useful
 link: http://openpgpblog.tumblr.com/post/288011255/using-gpg-to-sign-git-tags

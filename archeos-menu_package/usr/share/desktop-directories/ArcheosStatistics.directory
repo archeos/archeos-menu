@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Directory
+Name[en_US]=Statistics
+Comment[en_US]=Statistics applications
+Name=Statistics
+Comment=Statistics applications
+Icon=/usr/share/icons/archeos-menu/archeos-menu-statistics.png
+

@@ -25,8 +25,22 @@
       <Filename>MakeHuman alpha 5.desktop</Filename>
       <Filename>Whitedune.desktop</Filename>
       <Filename>k3d.desktop</Filename>
+      <Filename>CManager.desktop</Filename>
+      <Filename>Enviro.desktop</Filename>
+      <Filename>VTBuilder.desktop</Filename>
     </Include>
   </Menu>
+  <Menu>
+    <Name>ArcheosStatistics</Name>
+    <Directory>ArcheosStatistics.directory</Directory>
+    <AppDir>/usr/share/applications/archeos-specific</AppDir>
+    <Include>
+      <Filename>qtiplot.desktop</Filename>
+      <Filename>plotdrop.desktop</Filename>
+      <Filename>R Commander.desktop</Filename>
+    </Include>
+  </Menu>
+
   <Menu>
     <Name>ArcheosCAD</Name>
     <Directory>ArcheosCAD.directory</Directory>
@@ -113,7 +127,7 @@
       <Filename>gpsdrive.desktop</Filename>
       <Filename>interior.desktop</Filename>
       <Filename>makehuman.desktop</Filename>
-      <Filename>meshlab.desktop</Filename>
+      <Filename>archeos-specific-meshlab.desktop</Filename>
       <Filename>normalization.desktop</Filename>
       <Filename>openjump.desktop</Filename>
       <Filename>phototriangulation.desktop</Filename>
@@ -125,6 +139,7 @@
       <Filename>k3d.desktop</Filename>
       <Filename>openoffice.org-draw.desktop</Filename>
       <Filename>librecad.desktop</Filename>
+      <Filename>plotdrop.desktop</Filename>
     </Exclude>
   </Menu>
   <Menu>
@@ -212,11 +227,17 @@
       <Filename>assistant-qt3.desktop</Filename>
       <Filename>spatialite-gis.desktop</Filename>
       <Filename>spatialite-gui.desktop</Filename>
+      <Filename>archeos-specific-CManager.desktop</Filename>
+      <Filename>archeos-specific-VTBuilder.desktop</Filename>
+      <Filename>archeos-specific-Enviro.desktop</Filename>
     </Exclude>
   </Menu>
   <Menu>
     <Name>Development</Name>
     <Exclude>
+      <Filename>pycrust.desktop</Filename>
+      <Filename>pyshell.desktop</Filename>
+      <Filename>xrced.desktop</Filename>
       <Filename>kompozer.desktop</Filename>
       <Filename>assistant-qt4.desktop</Filename>
       <Filename>assistant-qt3.desktop</Filename>
@@ -234,6 +255,8 @@
       <Filename>qgis.desktop</Filename>
       <Filename>r-cran-rcmdr.desktop</Filename>
       <Filename>saga_gui.desktop</Filename>
+      <Filename>qtiplot.desktop</Filename>
+      <Filename>Rcmdr.desktop</Filename>
     </Exclude>
     <Include>
       <Filename>Kalzium.desktop</Filename>
