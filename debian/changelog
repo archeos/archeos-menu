@@ -2,7 +2,7 @@ archeos-menu (5.0.0) theodoric; urgency=medium
 
   * Updated version to avoid breaks with old archeos-menu
 
- -- Fabrizio Furnari <fab.furnari@gmail.com>  Tue, 09 Sep 2014 16:46:11 +0200
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Tue, 09 Sep 2014 17:22:53 +0200
 
 archeos-menu (0.5) theodoric; urgency=medium
 
