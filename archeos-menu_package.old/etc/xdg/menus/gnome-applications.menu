@@ -1,0 +1,282 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+
+<Menu>
+  <Name>Applications</Name>
+  <MergeFile type="parent">/etc/xdg/menus/original.menu</MergeFile>
+  <Menu>
+    <Name>Accessories</Name>
+    <Exclude>
+      <Filename>k3b.desktop</Filename>
+    </Exclude>
+    <Include>
+      <Filename>baobab.desktop</Filename>
+      <Filename>totalopenstation.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>Archeos3D</Name>
+    <Directory>Archeos3D.directory</Directory>
+    <AppDir>/usr/share/applications/archeos-specific</AppDir>
+    <Include>
+      <Filename>Blender (fullscreen).desktop</Filename>
+      <Filename>Blender (windowed).desktop</Filename>
+      <Filename>jSVR-1.desktop</Filename>
+      <Filename>MakeHuman alpha 5.desktop</Filename>
+      <Filename>Whitedune.desktop</Filename>
+      <Filename>k3d.desktop</Filename>
+      <Filename>CManager.desktop</Filename>
+      <Filename>Enviro.desktop</Filename>
+      <Filename>VTBuilder.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>ArcheosStatistics</Name>
+    <Directory>ArcheosStatistics.directory</Directory>
+    <AppDir>/usr/share/applications/archeos-specific</AppDir>
+    <Include>
+      <Filename>qtiplot.desktop</Filename>
+      <Filename>plotdrop.desktop</Filename>
+      <Filename>R Commander.desktop</Filename>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>ArcheosCAD</Name>
+    <Directory>ArcheosCAD.directory</Directory>
+    <AppDir>/usr/share/applications/archeos-specific</AppDir>
+    <Include>
+      <Filename>FreeCAD.desktop</Filename>
+      <Filename>librecad.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>ArcheosDatabase</Name>
+    <Directory>ArcheosDatabase.directory</Directory>
+    <AppDir>/usr/share/applications/archeos-specific</AppDir>
+    <Include>
+      <Filename>OpenOffice.org Base.desktop</Filename>
+      <Filename>alacarte-made.desktop</Filename>
+      <Filename>Tellico.desktop</Filename>
+      <Filename>sqlitebrowser.desktop</Filename>
+      <Filename>pgadmin3.desktop</Filename>
+      <Filename>spatialite-gis.desktop</Filename>
+      <Filename>spatialite-gui.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>ArcheosGIS</Name>
+    <Directory>ArcheosGIS.directory</Directory>
+    <AppDir>/usr/share/applications/archeos-specific</AppDir>
+    <Include>
+      <Filename>alacarte-made-3.desktop</Filename>
+      <Filename>gvSIG-1.desktop</Filename>
+      <Filename>OpenJUMP.desktop</Filename>
+      <Filename>Quantum GIS.desktop</Filename>
+      <Filename>SAGA GIS.desktop</Filename>
+      <Filename>Udig.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>ArcheosGPS</Name>
+    <Directory>ArcheosGPS.directory</Directory>
+    <Include>
+      <Filename>alacarte-made-4.desktop</Filename>
+      <Filename>gpsdrive.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>ArcheosLaser</Name>
+    <Directory>ArcheosLaser.directory</Directory>
+    <AppDir>/usr/share/applications/archeos-specific</AppDir>
+    <Include>
+      <Filename>meshlab.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>ArcheosRaster</Name>
+    <Directory>ArcheosRaster.directory</Directory>
+    <AppDir>/usr/share/applications/archeos-specific</AppDir>
+    <Include>
+      <Filename>DEM.desktop</Filename>
+      <Filename>Exterior.desktop</Filename>
+      <Filename>Interior.desktop</Filename>
+      <Filename>insight3d.desktop</Filename>
+      <Filename>Normalization.desktop</Filename>
+      <Filename>Phototriangulation.desktop</Filename>
+      <Filename>ppt.desktop</Filename>
+      <Filename>Rectification.desktop</Filename>
+      <Filename>stereo-1.desktop</Filename>
+      <Filename>Stereoplotter.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>Education</Name>
+    <Exclude>
+      <Filename>kde4-marble.desktop</Filename>
+    </Exclude>
+  </Menu>
+  <Menu>
+    <Name>Graphics</Name>
+    <Exclude>
+      <Filename>blender-fullscreen.desktop</Filename>
+      <Filename>blender-windowed.desktop</Filename>
+      <Filename>dem.desktop</Filename>
+      <Filename>exterior.desktop</Filename>
+      <Filename>freecad.desktop</Filename>
+      <Filename>gpsdrive.desktop</Filename>
+      <Filename>interior.desktop</Filename>
+      <Filename>makehuman.desktop</Filename>
+      <Filename>archeos-specific-meshlab.desktop</Filename>
+      <Filename>normalization.desktop</Filename>
+      <Filename>openjump.desktop</Filename>
+      <Filename>phototriangulation.desktop</Filename>
+      <Filename>qcad.desktop</Filename>
+      <Filename>rectification.desktop</Filename>
+      <Filename>stereo.desktop</Filename>
+      <Filename>stereoplotter.desktop</Filename>
+      <Filename>whitedune.desktop</Filename>
+      <Filename>k3d.desktop</Filename>
+      <Filename>openoffice.org-draw.desktop</Filename>
+      <Filename>librecad.desktop</Filename>
+      <Filename>plotdrop.desktop</Filename>
+    </Exclude>
+  </Menu>
+  <Menu>
+    <Name>Office</Name>
+    <Exclude>
+      <Filename>openoffice.org-base.desktop</Filename>
+      <Filename>kde4-tellico.desktop</Filename>
+    </Exclude>
+  </Menu>
+  <Menu>
+    <Name>Other</Name>
+    <Exclude>
+      <Filename>archeos-specific-Blender (fullscreen).desktop</Filename>
+      <Filename>archeos-specific-Blender (windowed).desktop</Filename>
+      <Filename>archeos-specific-DEM.desktop</Filename>
+      <Filename>archeos-specific-Exterior.desktop</Filename>
+      <Filename>archeos-specific-FreeCAD.desktop</Filename>
+      <Filename>archeos-specific-GpsDrive.desktop</Filename>
+      <Filename>archeos-specific-stereo-1.desktop</Filename>
+      <Filename>archeos-specific-sqlitebrowser.desktop</Filename>
+      <Filename>sqlitebrowser.desktop</Filename>
+      <Filename>gvSIG.desktop</Filename>
+      <Filename>archeos-specific-gvSIG-1.desktop</Filename>
+      <Filename>archeos-specific-Interior.desktop</Filename>
+      <Filename>jSVR.desktop</Filename>
+      <Filename>archeos-specific-jSVR-1.desktop</Filename>
+      <Filename>archeos-specific-Kalzium.desktop</Filename>
+      <Filename>Kalzium.desktop</Filename>
+      <Filename>archeos-specific-KompoZer.desktop</Filename>
+      <Filename>KompoZer.desktop</Filename>
+      <Filename>insight3d.desktop</Filename>
+      <Filename>archeos-specific-MakeHuman alpha 5.desktop</Filename>
+      <Filename>archeos-specific-Marble.desktop</Filename>
+      <Filename>Marble.desktop</Filename>
+      <Filename>archeos-specific-MeshLab.desktop</Filename>
+      <Filename>archeos-specific-Normalization.desktop</Filename>
+      <Filename>archeos-specific-OpenJUMP.desktop</Filename>
+      <Filename>archeos-specific-OpenOffice.org Base.desktop</Filename>
+      <Filename>ParaView Viewer.desktop</Filename>
+      <Filename>archeos-specific-ParaView Viewer.desktop</Filename>
+      <Filename>archeos-specific-Phototriangulation.desktop</Filename>
+      <Filename>archeos-specific-QCad.desktop</Filename>
+      <Filename>archeos-specific-Quantum GIS.desktop</Filename>
+      <Filename>archeos-specific-R Commander.desktop</Filename>
+      <Filename>R Commander.desktop</Filename>
+      <Filename>archeos-specific-Rectification.desktop</Filename>
+      <Filename>archeos-specific-SAGA GIS.desktop</Filename>
+      <Filename>archeos-specific-stereo.desktop</Filename>
+      <Filename>archeos-specific-ppt.desktop</Filename>
+      <Filename>archeos-specific-Stereoplotter.desktop</Filename>
+      <Filename>archeos-specific-Tellico.desktop</Filename>
+      <Filename>totalopenstation.desktop</Filename>
+      <Filename>udig.desktop</Filename>
+      <Filename>archeos-specific-Udig.desktop</Filename>
+      <Filename>archeos-specific-Whitedune.desktop</Filename>
+      <Filename>Blender (fullscreen).desktop</Filename>
+      <Filename>Blender (windowed).desktop</Filename>
+      <Filename>DEM.desktop</Filename>
+      <Filename>Exterior.desktop</Filename>
+      <Filename>FreeCAD.desktop</Filename>
+      <Filename>alacarte-made-4.desktop</Filename>
+      <Filename>GpsDrive.desktop</Filename>
+      <Filename>alacarte-made-3.desktop</Filename>
+      <Filename>gvSIG-1.desktop</Filename>
+      <Filename>Interior.desktop</Filename>
+      <Filename>jSVR-1.desktop</Filename>
+      <Filename>MakeHuman alpha 5.desktop</Filename>
+      <Filename>MeshLab.desktop</Filename>
+      <Filename>Normalization.desktop</Filename>
+      <Filename>OpenJUMP.desktop</Filename>
+      <Filename>OpenOffice.org Base.desktop</Filename>
+      <Filename>Phototriangulation.desktop</Filename>
+      <Filename>alacarte-made.desktop</Filename>
+      <Filename>QCad.desktop</Filename>
+      <Filename>Quantum GIS.desktop</Filename>
+      <Filename>Rectification.desktop</Filename>
+      <Filename>SAGA GIS.desktop</Filename>
+      <Filename>alacarte-made-2.desktop</Filename>
+      <Filename>alacarte-made-1.desktop</Filename>
+      <Filename>stereo.desktop</Filename>
+      <Filename>Stereoplotter.desktop</Filename>
+      <Filename>Tellico.desktop</Filename>
+      <Filename>Udig.desktop</Filename>
+      <Filename>Whitedune.desktop</Filename>
+      <Filename>assistant-qt3.desktop</Filename>
+      <Filename>spatialite-gis.desktop</Filename>
+      <Filename>spatialite-gui.desktop</Filename>
+      <Filename>archeos-specific-CManager.desktop</Filename>
+      <Filename>archeos-specific-VTBuilder.desktop</Filename>
+      <Filename>archeos-specific-Enviro.desktop</Filename>
+    </Exclude>
+  </Menu>
+  <Menu>
+    <Name>Development</Name>
+    <Exclude>
+      <Filename>pycrust.desktop</Filename>
+      <Filename>pyshell.desktop</Filename>
+      <Filename>xrced.desktop</Filename>
+      <Filename>kompozer.desktop</Filename>
+      <Filename>assistant-qt4.desktop</Filename>
+      <Filename>assistant-qt3.desktop</Filename>
+      <Filename>linguist-qt4.desktop</Filename>
+      <Filename>sqlitebrowser.desktop</Filename>
+      <Filename>pgadmin3.desktop</Filename>
+    </Exclude>
+  </Menu>
+  <Menu>
+    <Name>Science</Name>
+    <AppDir>/usr/share/applications/archeos-specific</AppDir>
+    <Exclude>
+      <Filename>kde4-kalzium.desktop</Filename>
+      <Filename>paraview.desktop</Filename>
+      <Filename>qgis.desktop</Filename>
+      <Filename>r-cran-rcmdr.desktop</Filename>
+      <Filename>saga_gui.desktop</Filename>
+      <Filename>qtiplot.desktop</Filename>
+      <Filename>Rcmdr.desktop</Filename>
+    </Exclude>
+    <Include>
+      <Filename>Kalzium.desktop</Filename>
+      <Filename>Marble.desktop</Filename>
+      <Filename>ParaView Viewer.desktop</Filename>
+    </Include>
+  </Menu>
+  <Menu>
+    <Name>System</Name>
+    <Exclude>
+      <Filename>nautilus-browser.desktop</Filename>
+      <Filename>gdmflexiserver.desktop</Filename>
+      <Filename>gdmflexiserver-xnest.desktop</Filename>
+      <Filename>baobab.desktop</Filename>
+    </Exclude>
+  </Menu>
+  <Menu>
+    <Name>Internet</Name>
+    <Exclude>
+      <Filename>gpsdrive.desktop</Filename>
+    </Exclude>
+  </Menu>
+</Menu>

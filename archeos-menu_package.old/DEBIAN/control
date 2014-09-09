@@ -1,0 +1,11 @@
+Package: archeos-menu
+Version: 4.0.2
+Architecture: all
+Maintainer: Fabrizio Furnari <fab.furnari@gmail.com>
+Depends: gnome-core
+Recommends: gnome-themes, archeos-artwork
+Section: gnome
+Replaces: gnome-menus
+Priority: optional
+Description: Icons and applications for archeos menu
+ archeos-menu offers the icons and entries for menu and applications in ArcheOS. 

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=;
+Comment=Create Web Pages
+Comment[es]=Crea pÃ¡ginas web
+Comment[it]=Creare pagine Web
+Exec=kompozer
+GenericName=Web Authoring System
+Hidden=false
+Icon=kompozer
+MimeType=text/html;text/xml;text/css;text/x-javascript;text/javascript;application/xhtml+xml;
+Name=KompoZer
+Terminal=false
+Type=Application

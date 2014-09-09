@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=;
+Comment=GPS Navigation
+Comment[de]=GPS Navigationsprogramm
+Encoding=UTF-8
+Exec=gpsdrive
+Hidden=false
+Icon=gpsicon.png
+Name=GpsDrive
+StartupNotify=true
+Terminal=false
+Type=Application

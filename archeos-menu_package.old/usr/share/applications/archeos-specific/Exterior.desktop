@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=;
+Exec=oe
+GenericName=EFOTO - Exterior Orientation
+Hidden=false
+Icon=/usr/share/icons/archeos/48x48/archeos_efoto48.png
+Name=Exterior
+NoDisplay=false
+StartupNotify=true
+Terminal=0
+TryExec=oe
+Type=Application
+Version=0.1

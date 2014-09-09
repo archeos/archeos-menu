@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Directory
+Icon[en_US]=/usr/share/icons/archeos-menu/archeos-menu-gis.png
+Name[en_US]=GIS
+Comment[en_US]=GIS applications
+Name=GIS
+Comment=GIS applications
+Icon=/usr/share/icons/archeos-menu/archeos-menu-gis.png
+

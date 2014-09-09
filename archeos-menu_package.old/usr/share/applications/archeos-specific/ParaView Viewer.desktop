@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=;
+Comment=ParaView allows viewing of large data sets
+Exec=paraview
+GenericName=Data Viewer
+Hidden=false
+Icon=paraview
+MimeType=application/x-paraview;
+Name=ParaView Viewer
+Terminal=false
+Type=Application
+Version=1.0

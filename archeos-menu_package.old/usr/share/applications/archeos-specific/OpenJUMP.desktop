@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=;
+Exec=openjump
+GenericName=OpenJUMP Unified Mapping Platform
+Hidden=false
+Icon=/usr/share/icons/archeos/48x48/openjump.png
+Name=OpenJUMP
+NoDisplay=false
+StartupNotify=true
+Terminal=1
+TryExec=openjump
+Type=Application
+Version=1.3.1
