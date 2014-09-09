@@ -1,3 +1,10 @@
+archeos-menu (5.0.1) theodoric; urgency=medium
+
+  * changelog
+  * included original readme
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Tue, 09 Sep 2014 17:26:08 +0200
+
 archeos-menu (5.0.0) theodoric; urgency=medium
 
   * Updated version to avoid breaks with old archeos-menu
