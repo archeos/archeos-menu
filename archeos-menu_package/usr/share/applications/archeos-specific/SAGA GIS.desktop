@@ -1,9 +1,0 @@
-[Desktop Entry]
-Categories=;
-Comment=View and manipulate geographical information
-Exec=saga_gui
-GenericName=A System for an Automated Geographical Analysis
-Hidden=false
-Icon=/usr/share/saga/saga_icon_32.xpm
-Name=SAGA GIS
-Type=Application

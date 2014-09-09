@@ -1,0 +1,1 @@
+DPkg::Post-Invoke { "/usr/share/archeos-menu/update-archeos-menu wait_dpkg"; }
