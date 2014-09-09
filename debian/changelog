@@ -1,0 +1,5 @@
+archeos-menu (0.5) theodoric; urgency=medium
+
+  * Initial release. (Closes: #1234)
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Tue, 09 Sep 2014 14:21:59 +0200

@@ -1,0 +1,18 @@
+Source: archeos-menu
+Section: gnome
+Priority: optional
+Maintainer: Fabrizio Furnari <fab.furnari@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Vcs-Git: https://github.com/archeos/archeos-menu.git
+Vcs-Browser: https://github.com/archeos/archeos-menu
+
+Package: archeos-menu
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, libdpkg-perl, libfile-fcntllock-perl, xdg-utils
+Description: ArcheOS custom menu
+ This package provides a custom menu for ArcheOS and is copied from the Kali Linux
+ one.
+ .
+ It is used by any destkop that complies with the Freedesktop menu
+ specification at http://standards.freedesktop.org/menu-spec/menu-spec-1.0.html
