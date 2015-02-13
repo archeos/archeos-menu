@@ -1,6 +1,6 @@
 menus/archeos-applications.menu etc/xdg/menus/applications-merged/
 desktop-directories/*.directory usr/share/desktop-directories/
-desktop-files/*.desktop usr/share/archeos-menu/applications/
+desktop-files/*.desktop usr/share/applications/
 apt.conf.d/99archeos-menu etc/apt/apt.conf.d/
 update-archeos-menu usr/share/archeos-menu/
 menu-icons/* usr/share/icons/hicolor/
