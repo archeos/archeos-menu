@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=GPSBabel
+GenericName=GPSBabel
+Exec=gpsbabel
+Terminal=true
+Icon=None
+Categories=Application;03-gps-applications;
+X-ArcheOS-Package=gpsbabel
