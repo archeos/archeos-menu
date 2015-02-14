@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Whitedune
+GenericName=Whitedune
+Exec=whitedune
+Terminal=false
+Icon=/usr/share/pixmaps/whitedune.xpm
+Categories=Application;Graphics;01-3D-applications;
+X-ArcheOS-Package=whitedune
