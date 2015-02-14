@@ -53,5 +53,5 @@ Exec=/usr/bin/qbrowser %F
 Terminal=false
 StartupNotify=false
 Categories=Qt;Education;Science;Geography;04-gis;
-X-ArcheOS-Package=qgis;
+X-ArcheOS-Package=qgis
 Keywords=map;globe;postgis;wms;wfs;ogc;osgeo
