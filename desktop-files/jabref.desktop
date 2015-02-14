@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=JabRef
+Comment=Graphical editor for BibTex bibliographies
+Comment[de]=Grafischer Editor für BibTex-Bibliographien
+Exec=jabref %f
+Icon=/usr/share/pixmaps/jabref32.xpm
+Terminal=false
+Type=Application
+Categories=Office;Database;11-publishing;
+X-ArcheOS-Package=jabref
+MimeType=text/x-bibtex

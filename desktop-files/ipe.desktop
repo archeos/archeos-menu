@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Ipe
+GenericName=Ipe
+Comment=Creates figures in Postscript and PDF formats
+Exec=ipe
+Terminal=false
+Icon=ipe
+Categories=Application;Graphics;11-publishing;
+X-ArcheOS-Package=ipe
