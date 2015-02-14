@@ -40,7 +40,7 @@
 		<Name>3D Applications</Name>
 		<Directory>01-3D-applications.directory</Directory>
 		<Include><And>
-			<Category>01-3D-applications</Category>
+			<Category>01-3D</Category>
 		</And></Include>
 	</Menu>
 
@@ -56,7 +56,7 @@
 		<Name>GPS Applications</Name>
 		<Directory>03-gps-applications.directory</Directory>
 		<Include><And>
-			<Category>03-gps-applications</Category>
+			<Category>03-gps</Category>
 		</And></Include>
 	</Menu>
 
@@ -64,7 +64,7 @@
 		<Name>GIS Applications</Name>
 		<Directory>04-gis-applications.directory</Directory>
 		<Include><And>
-			<Category>04-gis-applications</Category>
+			<Category>04-gis</Category>
 		</And></Include>
 	</Menu>
 
@@ -72,7 +72,7 @@
 		<Name>CAD Applications</Name>
 		<Directory>05-cad-applications.directory</Directory>
 		<Include><And>
-			<Category>05-cad-applications</Category>
+			<Category>05-cad</Category>
 		</And></Include>
 	</Menu>
 
@@ -96,7 +96,7 @@
 		<Name>Network Applications</Name>
 		<Directory>08-network-applications.directory</Directory>
 		<Include><And>
-			<Category>08-network-applications</Category>
+			<Category>08-network</Category>
 		</And></Include>
 	</Menu>
 
@@ -120,7 +120,7 @@
 		<Name>Publishing Applications</Name>
 		<Directory>11-publishing-applications.directory</Directory>
 		<Include><And>
-			<Category>11-publishing-applications</Category>
+			<Category>11-publishing</Category>
 		</And></Include>
 	</Menu>
 
@@ -128,7 +128,7 @@
 		<Name>Science Tools</Name>
 		<Directory>12-science-tools.directory</Directory>
 		<Include><And>
-			<Category>12-science-tools</Category>
+			<Category>12-science</Category>
 		</And></Include>
 	</Menu>
 
@@ -136,7 +136,7 @@
 		<Name>Statistics Applications</Name>
 		<Directory>13-statistics-applications.directory</Directory>
 		<Include><And>
-			<Category>13-statistics-applications</Category>
+			<Category>13-statistics</Category>
 		</And></Include>
 	</Menu>
 
@@ -144,7 +144,7 @@
 		<Name>Other Applications</Name>
 		<Directory>14-other-applications.directory</Directory>
 		<Include><And>
-			<Category>14-other-applications</Category>
+			<Category>14-other</Category>
 		</And></Include>
 	</Menu>
 
