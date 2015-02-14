@@ -12,6 +12,7 @@ For each archeos application that need to go into the "ArcheOS" submenu, the fol
    * The **Category** entry must correspond to a category used in the menu. See the `menus/archeos-applications.menu` for the complete list of categories (eg. **Category=05-cad-applications;**)
    * Multiple categories can be assigned using the `;` separator.
    * The **Icon** entry must exists somewhere into `/usr/share/icons` or must be inserted into the `menu-icons/64x64/apps/` folder.
+   * The **X-Archeos-Package** entry must match the corrisponding ArcheOS debian package (installed). This information will be used by the `update-archeos-menu` script to build the actual list of applications into `/usr/share/applications/`. This permits to create desktop files that will not be used until the actual deb package is installed.
              
 To add a new submenu:
              
