@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.2
+Name=rectification
+Name[en_GB]=rectification
+GenericName=Photogrammetry
+GenericName[en_GB]=Photogrammetry
+Comment=rectification of images
+Type=Application
+Exec=rect
+Icon=/usr/share/pixmaps/rect_32x32.xpm
+Terminal=false
+Categories=Photogrammetry;Graphics;10-photogrammetry;
+X-ArcheOS-Package=rectification

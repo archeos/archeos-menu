@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=10-photogrammetry;
+X-ArcheOS-Package=ppt-gui
+Exec=ppt-gui
+GenericName=Python Photogrammetry Toolbox
+Hidden=false
+Icon=ppt_icon
+Name=Python Photogrammetry Toolbox
+NoDisplay=false
+StartupNotify=true
+Terminal=false
+TryExec=ppt-gui
+Type=Application
+Version=0.1
+Name[en_GB]=ppt-gui
