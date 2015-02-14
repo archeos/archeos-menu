@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=MakeHuman 1.0 Alpha8 RC1
+Comment=MakeHuman is a free, open source tool for creating realistic 3D human characters.
+Exec=/usr/bin/makehuman
+Terminal=false
+Type=Application
+Icon=/usr/share/makehuman/icons/makehuman.svg
+Categories=Graphics;01-3D-applications;
+X-ArcheOS-Package=makehuman
+

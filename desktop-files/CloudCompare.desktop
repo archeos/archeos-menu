@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=2.4
+Type=Application
+Name=CloudCompare
+Comment=Point cloud processing
+Categories=Graphics;3DGraphics;Viewer;01-3D-applications;
+X-ArcheOS-Package=cloudcompare
+TryExec=CloudCompare
+Exec=CloudCompare %F
+Icon=cc_icon
+MimeType=model/mesh;
