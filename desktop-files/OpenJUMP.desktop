@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=OpenJUMP
+Version=1.0
+Exec=openjump
+Comment=OpenJUMP Unified Mapping Platform
+Icon=/usr/share/icons/archeos/48x48/openjump.png
+Type=Application
+Terminal=true
+StartupNotify=true
+Encoding=UTF-8
+Categories=GIS;04-gis-applications;
+X-ArcheOS-Package=openjump

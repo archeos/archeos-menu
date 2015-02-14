@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=GRASS GIS
+Comment=Geographic Information System
+Categories=Education;Science;Geoscience;Geography;04-gis-applications;
+X-ArcheOS-Package=grass
+Exec=grass64
+Icon=grass64
+Terminal=true
