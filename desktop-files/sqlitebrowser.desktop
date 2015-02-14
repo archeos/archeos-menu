@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=SQLite database browser
+Comment=GUI editor for SQLite databases
+TryExec=sqlitebrowser
+Exec=sqlitebrowser
+Icon=sqlitebrowser.png
+Terminal=false
+Type=Application
+Categories=Development;Database;Qt;06-db-tools;
+X-ArcheOS-Package=sqlitebrowser
+StartupNotify=false
+MimeType=application/x-sqlite;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Spatialite
+GenericName=Spatialite
+Exec=spatialite
+Terminal=true
+Icon=
+Categories=Application;Graphics;06-db-tools;
+X-ArcheOS-Package=spatialite-bin

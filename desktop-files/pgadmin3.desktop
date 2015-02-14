@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=pgAdmin III
+Comment=PostgreSQL Administration Tool
+Exec=pgadmin3
+Terminal=false
+Type=Application
+Icon=pgadmin3
+Categories=Development;Database;06-db-tools;
+X-ArcheOS-Package=pgadmin
