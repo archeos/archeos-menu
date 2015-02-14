@@ -5,5 +5,5 @@ GenericName=InVesalius-3.0
 Exec=invesalius-3.0
 Terminal=false
 Icon=invesalius
-Categories=Application;Graphics;Medical;GTK;01-3D-applications;
+Categories=Application;Graphics;Medical;GTK;01-3D;
 X-ArcheOS-Package=invesalius-3.0

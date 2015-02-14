@@ -5,5 +5,5 @@ GenericName=Whitedune
 Exec=whitedune
 Terminal=false
 Icon=/usr/share/pixmaps/whitedune.xpm
-Categories=Application;Graphics;01-3D-applications;
+Categories=Application;Graphics;01-3D;
 X-ArcheOS-Package=whitedune

@@ -10,5 +10,5 @@ Exec=meshlab
 Icon=/usr/share/pixmaps/meshlab_32x32.xpm
 Terminal=false
 MimeType=model/mesh;application/x-3ds;image/x-3ds;application/sla;
-Categories=Graphics;3DGraphics;Viewer;Qt;01-3D-applications;
+Categories=Graphics;3DGraphics;Viewer;Qt;01-3D;
 X-ArcheOS-Package=meshlab

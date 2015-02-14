@@ -5,6 +5,6 @@ Exec=/usr/bin/makehuman
 Terminal=false
 Type=Application
 Icon=/usr/share/makehuman/icons/makehuman.svg
-Categories=Graphics;01-3D-applications;
+Categories=Graphics;01-3D;
 X-ArcheOS-Package=makehuman
 

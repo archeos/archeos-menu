@@ -12,6 +12,6 @@ Exec=blender
 Icon=blender
 Terminal=false
 Type=Application
-Categories=Graphics;3DGraphics;01-3D-applications;
+Categories=Graphics;3DGraphics;01-3D;
 X-ArcheOS-Package=blender
 MimeType=application/x-blender;

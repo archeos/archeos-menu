@@ -8,5 +8,5 @@ Type=Application
 Terminal=true
 StartupNotify=true
 Encoding=UTF-8
-Categories=GIS;04-gis-applications;
+Categories=GIS;04-gis;
 X-ArcheOS-Package=openjump

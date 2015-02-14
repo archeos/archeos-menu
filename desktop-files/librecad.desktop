@@ -7,6 +7,6 @@ Comment[es]=Un sistema CAD profesional
 TryExec=librecad
 Exec=librecad %F
 Icon=librecad
-Categories=Graphics;Engineering;05-cad-applications;
+Categories=Graphics;Engineering;05-cad;
 X-ArcheOS-Package=librecad
 MimeType=image/vnd.dxf

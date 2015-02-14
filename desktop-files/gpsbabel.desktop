@@ -5,5 +5,5 @@ GenericName=GPSBabel
 Exec=gpsbabel
 Terminal=true
 Icon=None
-Categories=Application;03-gps-applications;
+Categories=Application;03-gps;
 X-ArcheOS-Package=gpsbabel
