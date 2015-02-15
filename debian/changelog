@@ -1,3 +1,34 @@
+archeos-menu (5.0.2) theodoric; urgency=medium
+
+  * some icons resized
+  * moved icons to correct locations
+  * correct path for applications
+  * temporary icon for photogrammetry
+  * simple instructions into readme
+  * understood why the different folder...
+  * start working on 3d apps
+  * removed test desktop file
+  * invented whitedune destkop file
+  * finished gps section
+  * working on the gis section
+  * cad section
+  * added qbrowser too
+  * db section
+  * graphics
+  * network section
+  * office sections
+  * shortened category names
+  * see previous commit
+  * fixed typo
+  * photogrammetry section
+  * added CloudCompare Viewer too
+  * publishing
+  * science category
+  * statistics section
+  * webgis into gis
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Sun, 15 Feb 2015 01:11:29 +0100
+
 archeos-menu (5.0.1) theodoric; urgency=medium
 
   * changelog
