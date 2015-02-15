@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Josm
+GenericName=Java OpenStreetMap Editor
+Comment=Editor for OpenStreetMap.org
+Exec=josm
+Icon=josm
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Education;Geography;04-gis;
+X-ArcheOS-Package=josm
