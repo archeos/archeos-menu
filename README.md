@@ -1,28 +1,12 @@
-Quick howto
-===========
+archeos-menu
+============
 
+This package contains files and script to build the archeos-menu under
+Gnome/XFCE/KDE/...
 
-Some notes to correctly create menu entries:
+Use `git-buildpackage` as usual to build the package.
 
-For each archeos application that need to go into the "ArcheOS" submenu, the following items must be created:
-
-* An icon (PNG, 64x64px) into `menu-icons/64x64/apps/`
-* (Optional) a svg vector icon into `menu-icons/scalable/`
-* A desktop entry into `deskop-files/`. Use the `test.desktop` file as template.
-   * The **Category** entry must correspond to a category used in the menu. See the `menus/archeos-applications.menu` for the complete list of categories (eg. **Category=05-cad-applications;**)
-   * Multiple categories can be assigned using the `;` separator.
-   * The **Icon** entry must exists somewhere into `/usr/share/icons` or must be inserted into the `menu-icons/64x64/apps/` folder.
-   * The **X-Archeos-Package** entry must match the corrisponding ArcheOS debian package (installed). This information will be used by the `update-archeos-menu` script to build the actual list of applications into `/usr/share/applications/`. This permits to create desktop files that will not be used until the actual deb package is installed.
-             
-To add a new submenu:
-             
-* Add a new `<Menuname> ... </Menuname>` like the others into the `<Layout>` section into `menus/archeos-applications.menu` file (see others).
-* Add a new `<Menu> ... </Menu>` stanza into `menus/archeos-applications.menu` similar to the other. 
-   * The `<Directory> ... </Directory>` tag must contain the filename of the desktop entry (see below)
-   * The `<Include> ... </Include>` tag must contain a list of categories that applications files (see above) must contain. If no applications contains this category the menu **will not be displayed**.
-* Add a new `.directory` file into `desktop-directories/` like the other ones
-* The **Type** entry must be **Directory**
-* The **Icon** entry must exists somewhere into `/usr/share/icons` or must be inserted into the `menu-icons/64x64/apps/` folder (see above).
+For documentation see: http://doc.archeos.eu/development/menu.html
 
 Original readme (from Kali Linux menu package)
 ==============================================
