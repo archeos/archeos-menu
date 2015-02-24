@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0.2-archeos0.1
+Type=Application
+Name=Tellervo
+Comment=Dendrochronology software
+Generic=Dendrochronology software
+TryExec=tellervo
+Exec=tellervo
+Icon=/usr/share/pixmaps/tellervo-application.png
+Terminal=false
+Categories=Utility;Science;02-dendrochronology
+X-ArcheOS-Package=tellervo
