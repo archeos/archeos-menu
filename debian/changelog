@@ -1,3 +1,11 @@
+archeos-menu (5.0.3) theodoric; urgency=medium
+
+  * updated readme
+  * removed old dir
+  * added some icons
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Tue, 24 Feb 2015 11:47:30 +0100
+
 archeos-menu (5.0.2) theodoric; urgency=medium
 
   * some icons resized
