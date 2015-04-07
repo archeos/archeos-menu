@@ -1,164 +1,163 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
- "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+          "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
 
 <Menu>
-<Name>ArcheOS Applications</Name>
-<!-- submenu -->
-<Menu>
-	<Name>ArcheOS</Name>
-	<Layout>
-		<Merge type="menus"/>
-		<Menuname>Quick Access</Menuname>
-                 <Separator> </Separator>
-		<Menuname>3D Applications</Menuname>
-		<Menuname>Dendrochronology</Menuname>
-		<Menuname>GPS Applications</Menuname>
-		<Menuname>GIS Applications</Menuname>
-		<Menuname>CAD Applications</Menuname>
-		<Menuname>DB Tools</Menuname>
-		<Menuname>Graphics</Menuname>
-		<Menuname>Network Applications</Menuname>
-		<Menuname>Office</Menuname>
-		<Menuname>Photogrammetry</Menuname>
-		<Menuname>Publishing Applications</Menuname>
-		<Menuname>Science Tools</Menuname>
-		<Menuname>Statistics Applications</Menuname>
-        <Menuname>Hardware Applications</Menuname>
-		<Menuname>Other Applications</Menuname>
-	</Layout>
-
-	<Directory>ArcheOS.directory</Directory>
-
- 	<Menu>
- 		<Name>Quick Access</Name>
-		<Directory>quick.directory</Directory>
-		<Include><And>
-			<Category>quick</Category>
-		</And></Include>
+  <Name>ArcheOS Applications</Name>
+  <!-- submenu -->
+  <Menu>
+    <Name>ArcheOS</Name>
+    <Layout>
+      <Merge type="menus"/>
+      <Menuname>Quick Access</Menuname>
+      <Separator> </Separator>
+      <Menuname>3D Applications</Menuname>
+      <Menuname>Dendrochronology</Menuname>
+      <Menuname>GPS Applications</Menuname>
+      <Menuname>GIS Applications</Menuname>
+      <Menuname>CAD Applications</Menuname>
+      <Menuname>DB Tools</Menuname>
+      <Menuname>Graphics</Menuname>
+      <Menuname>Network Applications</Menuname>
+      <Menuname>Office</Menuname>
+      <Menuname>Photogrammetry</Menuname>
+      <Menuname>Publishing Applications</Menuname>
+      <Menuname>Science Tools</Menuname>
+      <Menuname>Statistics Applications</Menuname>
+      <Menuname>Hardware Applications</Menuname>
+	  <Menuname>Other Applications</Menuname>
+    </Layout>
+    
+    <Directory>ArcheOS.directory</Directory>
+    
+    <Menu>
+ 	  <Name>Quick Access</Name>
+	  <Directory>quick.directory</Directory>
+	  <Include><And>
+		  <Category>quick</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>3D Applications</Name>
-		<Directory>01-3D-applications.directory</Directory>
-		<Include><And>
-			<Category>01-3D</Category>
-		</And></Include>
+	  <Name>3D Applications</Name>
+	  <Directory>01-3D-applications.directory</Directory>
+	  <Include><And>
+		  <Category>01-3D</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Dendrochronology</Name>
-		<Directory>02-dendrochronology.directory</Directory>
-		<Include><And>
-			<Category>02-dendrochronology</Category>
-		</And></Include>
+	  <Name>Dendrochronology</Name>
+	  <Directory>02-dendrochronology.directory</Directory>
+	  <Include><And>
+		  <Category>02-dendrochronology</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>GPS Applications</Name>
-		<Directory>03-gps-applications.directory</Directory>
-		<Include><And>
-			<Category>03-gps</Category>
-		</And></Include>
+	  <Name>GPS Applications</Name>
+	  <Directory>03-gps-applications.directory</Directory>
+	  <Include><And>
+		  <Category>03-gps</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>GIS Applications</Name>
-		<Directory>04-gis-applications.directory</Directory>
-		<Include><And>
-			<Category>04-gis</Category>
-		</And></Include>
+	  <Name>GIS Applications</Name>
+	  <Directory>04-gis-applications.directory</Directory>
+	  <Include><And>
+		  <Category>04-gis</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>CAD Applications</Name>
-		<Directory>05-cad-applications.directory</Directory>
-		<Include><And>
-			<Category>05-cad</Category>
-		</And></Include>
+	  <Name>CAD Applications</Name>
+	  <Directory>05-cad-applications.directory</Directory>
+	  <Include><And>
+		  <Category>05-cad</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>DB Tools</Name>
-		<Directory>06-db-tools.directory</Directory>
-		<Include><And>
-			<Category>06-db-tools</Category>
-		</And></Include>
+	  <Name>DB Tools</Name>
+	  <Directory>06-db-tools.directory</Directory>
+	  <Include><And>
+		  <Category>06-db-tools</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Graphics</Name>
-		<Directory>07-graphics.directory</Directory>
-		<Include><And>
-			<Category>07-graphics</Category>
-		</And></Include>
+	  <Name>Graphics</Name>
+	  <Directory>07-graphics.directory</Directory>
+	  <Include><And>
+		  <Category>07-graphics</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Network Applications</Name>
-		<Directory>08-network-applications.directory</Directory>
-		<Include><And>
-			<Category>08-network</Category>
-		</And></Include>
+	  <Name>Network Applications</Name>
+	  <Directory>08-network-applications.directory</Directory>
+	  <Include><And>
+		  <Category>08-network</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Office</Name>
-		<Directory>09-office.directory</Directory>
-		<Include><And>
-			<Category>09-office</Category>
-		</And></Include>
+	  <Name>Office</Name>
+	  <Directory>09-office.directory</Directory>
+	  <Include><And>
+		  <Category>09-office</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Photogrammetry</Name>
-		<Directory>10-photogrammetry.directory</Directory>
-		<Include><And>
-			<Category>10-photogrammetry</Category>
-		</And></Include>
+	  <Name>Photogrammetry</Name>
+	  <Directory>10-photogrammetry.directory</Directory>
+	  <Include><And>
+		  <Category>10-photogrammetry</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Publishing Applications</Name>
-		<Directory>11-publishing-applications.directory</Directory>
-		<Include><And>
-			<Category>11-publishing</Category>
-		</And></Include>
+	  <Name>Publishing Applications</Name>
+	  <Directory>11-publishing-applications.directory</Directory>
+	  <Include><And>
+		  <Category>11-publishing</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Science Tools</Name>
-		<Directory>12-science-tools.directory</Directory>
-		<Include><And>
-			<Category>12-science</Category>
-		</And></Include>
+	  <Name>Science Tools</Name>
+	  <Directory>12-science-tools.directory</Directory>
+	  <Include><And>
+		  <Category>12-science</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Statistics Applications</Name>
-		<Directory>13-statistics-applications.directory</Directory>
-		<Include><And>
-			<Category>13-statistics</Category>
-		</And></Include>
+	  <Name>Statistics Applications</Name>
+	  <Directory>13-statistics-applications.directory</Directory>
+	  <Include><And>
+		  <Category>13-statistics</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Other Applications</Name>
-		<Directory>14-other-applications.directory</Directory>
-		<Include><And>
-			<Category>14-other</Category>
-		</And></Include>
+	  <Name>Other Applications</Name>
+	  <Directory>14-other-applications.directory</Directory>
+	  <Include><And>
+		  <Category>14-other</Category>
+	  </And></Include>
 	</Menu>
 
 	<Menu>
-		<Name>Hardware</Name>
-		<Directory>15-hardware-applications.directory</Directory>
-		<Include><And>
-			<Category>15-hardware</Category>
-		</And></Include>
+	  <Name>Hardware Applications</Name>
+	  <Directory>15-hardware-applications.directory</Directory>
+	  <Include><And>
+		  <Category>15-hardware</Category>
+	  </And></Include>
 	</Menu>
 
-
-</Menu>
+  </Menu>
 </Menu>
 
 
