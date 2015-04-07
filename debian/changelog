@@ -1,3 +1,9 @@
+archeos-menu (5.0.5) theodoric; urgency=medium
+
+  * new hardware submenu; new cura package
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Tue, 07 Apr 2015 15:57:38 +0200
+
 archeos-menu (5.0.4) theodoric; urgency=medium
 
   * added tellervo
