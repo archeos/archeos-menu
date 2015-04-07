@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=15-hardware;
 X-ArcheOS-Package=python-totalopenstation
-Exec=totalopenstation-guy
+Exec=totalopenstation-gui.py
 GenericName=
 Hidden=false
 Icon=archeos-logo
@@ -9,5 +9,5 @@ Name=TOPS (Total Open Station)
 NoDisplay=false
 StartupNotify=true
 Terminal=false
-TryExec=totalopenstation-gui
+TryExec=totalopenstation-gui.py
 Type=Application
