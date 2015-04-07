@@ -23,6 +23,7 @@
 		<Menuname>Publishing Applications</Menuname>
 		<Menuname>Science Tools</Menuname>
 		<Menuname>Statistics Applications</Menuname>
+        <Menuname>Hardware Applications</Menuname>
 		<Menuname>Other Applications</Menuname>
 	</Layout>
 
@@ -147,6 +148,15 @@
 			<Category>14-other</Category>
 		</And></Include>
 	</Menu>
+
+	<Menu>
+		<Name>Hardware</Name>
+		<Directory>15-hardware-applications.directory</Directory>
+		<Include><And>
+			<Category>15-hardware</Category>
+		</And></Include>
+	</Menu>
+
 
 </Menu>
 </Menu>
