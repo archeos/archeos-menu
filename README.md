@@ -1,7 +1,7 @@
 archeos-menu
 ============
 
-![build-status](http://build.archeos.eu/badge.png?builder=archeos-meta-slave1)
+![build-status](http://build.archeos.eu/badge.png?builder=archeos-menu)
 
 This package contains files and script to build the archeos-menu under
 Gnome/XFCE/KDE/...
