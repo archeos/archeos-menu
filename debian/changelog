@@ -1,3 +1,9 @@
+archeos-menu (6.1) hypatia; urgency=medium
+
+  * added spatialite-gui desktop entry; closes #10
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Fri, 27 Nov 2015 15:37:09 +0100
+
 archeos-menu (6.0) hypatia; urgency=medium
 
   * Added badge
